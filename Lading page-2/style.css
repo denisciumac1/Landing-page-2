@@ -1,0 +1,72 @@
+body{
+font-family: 'Dosis', sans-serif;
+background-color: #d3d3d3;
+}
+
+.header_container{
+height: 162px;
+margin: 0 14%;
+}
+
+.header_container a{
+margin-top: 40px;
+}
+
+.logo{
+font-size: 48px;
+color: white;
+}
+
+.call_number{
+margin-left: 54.66%;
+background-color: black;
+}
+
+.main{
+  height: 408px;
+  margin: 0 14%;
+  background-color:#ffc000;
+}
+
+.main ul{
+list-style: none;
+text-align: center;
+}
+
+.main ul h1{
+font-size: 72px;
+color: white;
+}
+
+.main p{
+font-size: 24px;
+}
+
+.main p span{
+font-family: bold;
+}
+
+.main a{
+height: 58px;
+background-color: black;
+font-size: 30px;
+margin: 0px 5px 0px 5px;
+}
+
+.main ul:last-child:last-child{
+margin-right: 100px;
+}
+
+.main img{
+margin-bottom: 50px;
+width: 120px;
+height: 60px;
+opacity: 0.5;
+animation: click 1s infinite;
+}
+
+@keyframes click {
+  0%   {opacity: 0;}
+  50%  {opacity: 0.5;}
+  100% {opacity: 1;}
+}
