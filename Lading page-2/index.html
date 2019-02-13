@@ -26,6 +26,8 @@
   </div>
 </div> -->
 <!-- Background Carousel -->
+<div class="container_body">
+
  <!-- Header -->
 <header>
 <div class="header_container">
@@ -58,11 +60,76 @@
 <!-- Main -->
 
 <!-- Carousel -->
-
+<div class="container">
+   <section class="customer-logos slider">
+      <div class="slide">
+            <h3>ELEMENTUM</h3>
+            <img src="https://picsum.photos/215/161/?image=1">
+            <p class="slider_prg">Fusce nisl sem</p>
+     </div>
+     <div class="slide">
+            <h3>MONOSCOPE</h3>
+            <img src="https://picsum.photos/215/161/?image=32">
+            <p class="slider_prg">Phasellus urna nulla</p>
+    </div>
+    <div class="slide">
+            <h3>PRAESENT</h3>
+            <img src="https://picsum.photos/215/161/?image=45">
+            <p class="slider_prg">Sed in nisl tellus</p>
+    </div>
+    <div class="slide">
+            <h3>SUSPENDISSE</h3>
+            <img src="https://picsum.photos/215/161/?image=156">
+            <p class="slider_prg">Praesent in augue</p>
+    </div>
+    <div class="slide">
+            <h3>CURABITUR</h3>
+            <img src="https://picsum.photos/215/161/?image=214">
+            <p class="slider_prg">Nam nisi mauris</p>
+   </div>
+    <div class="slide">
+            <h3>AENEAN</h3>
+            <img src="https://picsum.photos/215/161/?image=236">
+            <p class="slider_prg">Quam vitae pretium</p>
+   </div>
+   <div class="slide">
+            <h3>SCELERISQUE</h3>
+            <img src="https://picsum.photos/215/161/?image=325">
+            <p class="slider_prg">Quam vitae blandit</p>
+    </div>
+   </section>
 <!-- Carousel -->
 
+
+
+</div>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.customer-logos').slick({
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 1500,
+      arrows: false,
+      dots: false,
+      pauseOnHover: false,
+      responsive: [{
+          breakpoint: 768,
+          settings: {
+              slidesToShow: 4
+          }
+      }, {
+          breakpoint: 520,
+          settings: {
+              slidesToShow: 3
+          }
+      }]
+  });
+});
+</script>
 </body>
 </html>
