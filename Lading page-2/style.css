@@ -20,7 +20,7 @@ color: white;
 }
 
 .call_number{
-margin-left: 54%;
+float: right;
 background-color: black;
 }
 
@@ -188,7 +188,11 @@ animation: click 1s infinite;
 .slick-arrow.slick-hidden {
     display: none;
 }
-/* Slider */
+.container_carusel{
+padding-left: 0;
+padding-right: 0;
+}
+
 .slide h3,.slider_prg{
 text-align: center;
 color: white;
@@ -203,3 +207,50 @@ color:#ffc000;
 .slider_prg{
 padding: 5px;
 }
+/* Slider */
+
+/* Features */
+.list_features{
+background-color: #ffc000;
+padding: 40px;
+}
+.list_features h2{
+font-size: 54px;
+color: white;
+}
+.list_features p{
+font-size: 20px;
+}
+.list_features p span{
+font-family: bold;
+}
+.icon_list{
+width: 50%;
+}
+.icon_list ul {
+list-style: none;
+padding: 0;
+}
+.icon_list ul li h3{
+font-size: 30px;
+color: white;
+}
+.icon_list ul li i, p{
+display: inline;
+}
+.icon_list p{
+font-size: 20px;
+}
+.icon_list ul li i{
+font-size: 35px;
+color: white;
+margin-right: 15px;
+}
+.icon_list ul li{
+margin-top: 30px;
+}
+
+.container_list_features{
+display: flex;
+}
+/* Features */
