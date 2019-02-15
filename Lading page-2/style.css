@@ -2,6 +2,11 @@ body{
 font-family: 'Dosis', sans-serif;
 background-color: #d3d3d3;
 }
+
+#carouselExampleSlidesOnly{
+position: fixed;
+z-index: -1;
+}
 .container_body{
 margin: 0 14%;
 }
@@ -252,5 +257,65 @@ margin-top: 30px;
 
 .container_list_features{
 display: flex;
+}
+.card-body{
+background-color:  #ffc000;
+border: 0;
+}
+.accordion{
+width: 50%;
+margin-top: 30px;
+margin-left: 50px;
+}
+.card-header{
+background-color: #ffc000;
+padding: 0;
+margin: 5px 0;
+}
+.card{
+border: 0;
+background-color: #ffc000;
+}
+.btn-link{
+width: 100%;
+font-size: 30px;
+color: white;
+background-color: black;
+text-decoration: none!important;
+}
+.btn-link:hover{
+text-decoration: none;
+color: #ffc000;
+}
+.fa-play-circle{
+font-size: 80px;
+opacity: 0.7  ;
+position: absolute;
+top:50%;
+left: 40%;
+}
+.accordion_first_list{
+list-style: none;
+padding: 0;
+}
+.accordion_first_list h5{
+font-size: 16px;
+font-family: bold;
+display: inline-block;
+}
+.accordion_first_list p{
+font-size: 14px;
+display: inline-block;
+}
+.accordion_first_list span{
+float: left;
+margin-right: 20px;
+color: white;
+font-size: 30px;
+}
+.accordion_first_list.second i{
+color: white;
+font-size: 40px;
+margin-right: 15px;
 }
 /* Features */
