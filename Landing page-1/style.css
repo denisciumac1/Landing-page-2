@@ -1,0 +1,257 @@
+body {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+.navbar{
+height: 56px;
+}
+.logo{
+display: inline-block;
+margin-left: 55px;
+margin-top: 18px;
+text-decoration: none;
+color: #424343;
+font-size: 20px;
+}
+.btn{
+display: inline-block;
+position: absolute;
+color: white;
+right: 65px;
+top: 8px;
+background-color: #1e8aff;
+border-radius: 5px;
+height: 38px;
+width: 73px;
+border: 0;
+cursor: pointer;
+}
+.btn:hover{
+background-color: #0069d9;
+}
+.header{
+background-image: url(img/bg-masthead.jpg);
+height: 600px;
+}
+.title{
+color: white;
+font-size: 40px;
+text-align: center;
+padding-top: 210px;
+padding-left: 25%;
+padding-right: 25%;
+line-height: 50px;
+}
+.container-form{
+display: inline-block;
+margin-left: 27%;
+margin-top: 25px;
+}
+.first-input{
+width: 472px;
+height: 46px;
+padding-left: 15px;
+font-size: 20px;
+border-radius: 5px;
+border: 0;
+}
+.btn-2{
+  color: white;
+  background-color: #1e8aff;
+  border-radius: 5px;
+  height: 47px;
+  width: 135px;
+  border: 0;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 20px;
+}
+.btn-2:hover{
+background-color: #0069d9;
+}
+.container-icons{
+height: 300px;
+display: flex;
+text-align: center;
+margin: 50px;
+margin-top: 100px;
+}
+.container-icons i{
+font-size: 80px;
+color:#1e8aff;
+margin-bottom: 20px;
+cursor: pointer;
+}
+.container-icons i:hover{
+font-size: 85px;
+}
+.container-icons h3{
+font-size: 30px;
+margin-bottom: 20px;
+color:#212529;
+}
+.container-icons p{
+font-size: 20px;
+margin: 20px;
+color:#888a8c;
+font-family: Regular Italic;
+}
+.showcase div{
+width: 50%;
+}
+.showcase img{
+ width:100%;
+ height: 480px;
+}
+.showcase{
+  display: flex;
+  flex-wrap: wrap;
+}
+.showcase  h2{
+text-align: center;
+font-size: 32px;
+margin-top: 165px;
+}
+.showcase  p{
+text-align: center;
+font-size: 20px;
+font-family: Regular Italic;
+color: #888a8c;
+margin-top: 30px;
+margin-left: 15%;
+margin-right:15%;
+line-height: 30px;
+}
+.testimonials{
+background-color: #f8f9fa;
+height: 500px;
+}
+.testimonials h2{
+font-size: 32px;
+text-align: center;
+margin-top:100px;
+margin-bottom: 55px;
+}
+.testimonials div{
+display: inline-block;
+width: 33%;
+}
+.testimonials img{
+height: 200px;
+width: 200px;
+border-radius: 100%;
+margin: 0 120px 0 120px;
+}
+.testimonials div h5{
+text-align: center;
+margin: 20px 0;
+font-size: 20px;
+line-height: 24px;
+}
+.testimonials div p{
+text-align: center;
+margin: 0 20px;
+font-size: 16px;
+line-height: 24px;
+font-family: Regular Italic;
+}
+.first-testimonial{
+margin: 45px !important;
+}
+.call-to-action{
+background-image: url(img/bg-masthead.jpg);
+height: 300px;
+}
+.call-to-action h2{
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  padding-top: 115px;
+}
+.footer div{
+display: inline-block;
+margin-top: 75px;
+}
+.footer div ul li{
+display: inline;
+}
+.footer a{
+text-decoration: none;
+margin: 10px;
+color: #1e8aff;
+}
+.footer p {
+margin-top: 10px;
+margin-bottom: 50px;
+}
+.footer .first-list{
+margin-left: 10%;
+}
+.footer .second-list{
+float: right;
+margin-right: 10%;
+}
+.footer .first-list ul li a:hover{
+text-decoration: underline;
+}
+.footer .second-list ul li a:hover{
+color:  #0069d9;
+}
+
+
+@media screen and (max-width: 1000px){
+  .header h1{
+    font-size: 30px;
+  }
+   .container-form{
+     margin-left: 15% ;
+  }
+  .container-icons{
+    display: block;
+    height: auto;
+  }
+  .showcase div{
+   width: 100%;
+   margin: 10px 0;
+ }
+  .testimonials {
+  height: auto;
+ }
+ .testimonials div{
+  display: block;
+   width: 100%;
+  position: relative;
+
+ }
+ .testimonials img{
+  margin-left: 40%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+ }
+ .call-to-action{
+ margin-top: 15px;
+ }
+ .container-form button{
+   width: 460px;
+   margin-top: 10px;
+ }
+ .second-list{
+  float: none!important;
+   margin-top: 0!important;
+   margin-left: 40%;
+   margin-bottom: 20px;
+ }
+ .first-list{
+  margin-left: 30%!important;
+ }
+}
