@@ -364,3 +364,140 @@ margin-left: 10px;
 .name_testimonials{
   font-size: 15px!important;
 }
+/* CONTACT US */
+.contact_us{
+  background-color: #ffc000;
+  margin-top: 40px;
+  padding: 40px;
+}
+.map_inquiry{
+    margin-top: 30px;
+    display: flex;
+}
+.container_map{
+  width: 50%;
+}
+ .mb-4{
+  max-width: 100%!important;
+}
+.inquiry{
+width: 50%;
+}
+.contact_us h2{
+  color: white;
+  font-size: 60px;
+}
+.contact_us p{
+  font-size: 20px;
+}
+.contact_us p span{
+font-family: bold;
+}
+.contact_us h3{
+color: white;
+font-size: 30px;
+}
+
+/* Google Maps */
+.map-container-5{
+overflow:hidden;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.card-body-cascade{
+padding: 0!important;
+}
+/* Google Maps */
+.inquiry button{
+float: right;
+margin-top: 1px;
+}
+.inquiry button:hover{
+background-color: black;
+color: white;
+}
+.inquiry input{
+margin-top: 1px;
+}
+.inquiry textarea{
+margin-top: 1px;
+}
+/* CONTACT US */
+/* Footer */
+footer{
+display: flex;
+margin-top: 40px;
+margin-bottom: 40px;
+color:white;
+}
+.first_div{
+margin-right: 10px;
+background-color: black;
+padding: 40px;
+width: 50%;
+}
+.second_div{
+  background-color: black;
+  padding: 40px;
+  width: 50%;
+}
+footer h3{
+font-size: 30px;
+}
+.first_div .fa-crow, P{
+display: inline-block;
+}
+.bird{
+display: flex;
+}
+.bird a{
+text-decoration: none;
+color: #ffc000;
+}
+.bird a:hover{
+color: #ffc000;
+text-decoration: underline;
+}
+.fas.fa-crow{
+font-size: 30px;
+margin-right: 20px;
+margin-top: 20px;
+color: #ffc000;
+}
+.first_div ul li{
+list-style: none;
+font-size: 25px;
+float: left;
+margin: 2px;
+}
+.first_div ul li a{
+text-align: center;
+color: black;
+display: block;
+width: 40px;
+height:40px;
+background-color: #ffc000;
+}
+.first_div ul li a:hover{
+color: white;
+}
+.second_div form{
+display: flex;
+margin-top: 25px;
+}
+.second_div form button{
+margin-left: 2px;
+}
+.second_div form button:hover{
+background-color: black;
+color: white;
+border: 0;
+}
+/* Footer */
