@@ -501,3 +501,58 @@ color: white;
 border: 0;
 }
 /* Footer */
+
+@media screen and (max-width: 1030px){
+    .main img {
+    display: none;
+    }
+    .main ul{
+    padding: 0!important;
+    margin: 0!important;
+    }
+    .main a{
+    display: block;
+    margin-top: 10px;
+    font-size: 40px;
+    height: 100%;
+    }
+   .features{
+     text-align: center;
+    }
+   .container_list_features{
+    display: block;
+    }
+  .icon_list,
+  .accordion{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+   }
+   .testimonials_container h2,p{
+    text-align: center;
+   }
+   .testimonials_list li{
+    float: none!important;
+    width: 100%!important;
+    margin: auto!important;
+   }
+  .contact_us{
+   text-align: center;
+   }
+   .map_inquiry{
+   display: block;
+  }
+   .container_map,
+   .inquiry{
+   width: 100%;
+    margin-bottom:  10px;
+  }
+   footer{
+   display: block;
+  }
+  .first_div,
+  .second_div{
+  width: 100%;
+  margin-top: 10px;
+  }
+}
