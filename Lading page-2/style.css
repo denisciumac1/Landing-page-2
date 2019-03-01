@@ -555,4 +555,7 @@ border: 0;
   width: 100%;
   margin-top: 10px;
   }
+  .w-100{
+  width: auto!important;
+  }
 }
