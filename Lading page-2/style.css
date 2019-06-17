@@ -516,6 +516,9 @@ border: 0;
     font-size: 40px;
     height: 100%;
     }
+    .main ul h1{
+     font-size: 38px;
+    }
    .features{
      text-align: center;
     }
@@ -531,6 +534,9 @@ border: 0;
    .testimonials_container h2,p{
     text-align: center;
    }
+   .testimonials_container h2{
+    font-size: 38px;
+   }
    .testimonials_list li{
     float: none!important;
     width: 100%!important;
@@ -544,7 +550,7 @@ border: 0;
   }
    .container_map,
    .inquiry{
-   width: 100%;
+    width: 100%;
     margin-bottom:  10px;
   }
    footer{
