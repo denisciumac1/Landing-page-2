@@ -1,0 +1,567 @@
+body{
+font-family: 'Dosis', sans-serif;
+background-color: #d3d3d3;
+}
+
+#carouselExampleSlidesOnly{
+position: fixed;
+z-index: -1;
+}
+.container_body{
+margin: 0 14%;
+}
+
+.header_container a{
+margin-top: 40px;
+}
+
+.logo{
+font-size: 48px;
+color: white;
+}
+
+.call_number{
+float: right;
+background-color: black;
+}
+
+.main{
+  margin-top: 40px;
+  padding: 40px;
+  background-color:#ffc000;
+}
+
+.main ul{
+list-style: none;
+text-align: center;
+}
+
+.main ul h1{
+font-size: 72px;
+color: white;
+}
+
+.main p{
+font-size: 24px;
+}
+
+.main p span{
+font-family: bold;
+}
+
+.main a{
+height: 58px;
+background-color: black;
+font-size: 30px;
+margin: 0px 5px 0px 5px;
+}
+
+.main ul:last-child:last-child{
+margin-right: 100px;
+}
+
+.main img{
+margin-bottom: 50px;
+width: 120px;
+height: 60px;
+opacity: 0.5;
+animation: click 1s infinite;
+}
+
+@keyframes click {
+  0%   {opacity: 0;}
+  50%  {opacity: 0.5;}
+  100% {opacity: 1;}
+}
+
+/* Slider */
+.slick-slide {
+    margin: 40px 5px;
+}
+
+.slick-slide img {
+    width: 100%;
+   cursor: pointer;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.container_carusel{
+padding-left: 0;
+padding-right: 0;
+}
+
+.slide h3,.slider_prg{
+text-align: center;
+color: white;
+background-color: black;
+}
+.slide h3:hover{
+color:#ffc000;
+}
+.slider_prg:hover{
+color:#ffc000;
+}
+.slider_prg{
+padding: 5px;
+}
+/* Slider */
+
+/* Features */
+.list_features{
+background-color: #ffc000;
+padding: 40px;
+}
+.list_features h2{
+font-size: 54px;
+color: white;
+}
+.list_features p{
+font-size: 20px;
+}
+.list_features p span{
+font-family: bold;
+}
+.icon_list{
+width: 50%;
+}
+.icon_list ul {
+list-style: none;
+padding: 0;
+}
+.icon_list ul li h3{
+font-size: 30px;
+color: white;
+}
+.icon_list ul li i, p{
+display: inline;
+}
+.icon_list p{
+font-size: 20px;
+}
+.icon_list ul li i{
+font-size: 35px;
+color: white;
+margin-right: 15px;
+}
+.icon_list ul li{
+margin-top: 30px;
+}
+
+.container_list_features{
+display: flex;
+}
+.card-body{
+background-color:  #ffc000;
+border: 0;
+}
+.accordion{
+width: 50%;
+margin-top: 30px;
+margin-left: 50px;
+}
+.card-header{
+background-color: #ffc000;
+padding: 0;
+margin: 5px 0;
+}
+.card{
+border: 0;
+background-color: #ffc000;
+}
+.btn-link{
+width: 100%;
+font-size: 30px;
+color: white;
+background-color: black;
+text-decoration: none!important;
+}
+.btn-link:hover{
+text-decoration: none;
+color: #ffc000;
+}
+.fa-play-circle{
+font-size: 80px;
+opacity: 0.7  ;
+position: absolute;
+top:50%;
+left: 40%;
+}
+.accordion_first_list{
+list-style: none;
+padding: 0;
+}
+.accordion_first_list h5{
+font-size: 16px;
+font-family: bold;
+display: inline-block;
+}
+.accordion_first_list p{
+font-size: 14px;
+display: inline-block;
+}
+.accordion_first_list span{
+float: left;
+margin-right: 20px;
+color: white;
+font-size: 30px;
+}
+.accordion_first_list.second i{
+color: white;
+font-size: 40px;
+margin-right: 15px;
+}
+/* Features */
+.testimonials_container{
+background-color: #ffc000;
+margin-top: 40px;
+padding: 40px;
+}
+.testimonials_container h2{
+font-size: 60px;
+color: white;
+}
+.testimonials_container p{
+font-size: 24px;
+}
+.testimonials_container p span{
+font-family: bold;
+}
+.testimonials_container ul{
+list-style: none;
+margin-top: 40px;
+padding: 0;
+}
+.testimonials_container ul li{
+width: 49%;
+margin-bottom: 20px;
+}
+.testimonials_container ul .comment{
+padding: 10px;
+background-color: black;
+color: white;
+display: block;
+font-size: 15px;
+margin-bottom: auto;
+}
+.testimonials_list li:nth-child(odd){
+float: right;
+margin-left: 10px;
+}
+.triangle{
+    width: 0;
+    height: 0;
+    border: 0 solid transparent;
+    border-bottom-width: 19px;
+    border-top-width: 0px;
+    border-left: 16px solid black;
+    display: inline-block;
+}
+.name_testimonials{
+  font-size: 15px!important;
+}
+/* CONTACT US */
+.contact_us{
+  background-color: #ffc000;
+  margin-top: 40px;
+  padding: 40px;
+}
+.map_inquiry{
+    margin-top: 30px;
+    display: flex;
+}
+.container_map{
+  width: 50%;
+}
+ .mb-4{
+  max-width: 100%!important;
+}
+.inquiry{
+width: 50%;
+}
+.contact_us h2{
+  color: white;
+  font-size: 60px;
+}
+.contact_us p{
+  font-size: 20px;
+}
+.contact_us p span{
+font-family: bold;
+}
+.contact_us h3{
+color: white;
+font-size: 30px;
+}
+
+/* Google Maps */
+.map-container-5{
+overflow:hidden;
+position:relative;
+height:0;
+}
+.map-container-5 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+.card-body-cascade{
+padding: 0!important;
+}
+/* Google Maps */
+.inquiry button{
+float: right;
+margin-top: 1px;
+}
+.inquiry button:hover{
+background-color: black;
+color: white;
+}
+.inquiry input{
+margin-top: 1px;
+}
+.inquiry textarea{
+margin-top: 1px;
+}
+/* CONTACT US */
+/* Footer */
+footer{
+display: flex;
+margin-top: 40px;
+margin-bottom: 40px;
+color:white;
+}
+.first_div{
+margin-right: 10px;
+background-color: black;
+padding: 40px;
+width: 50%;
+}
+.second_div{
+  background-color: black;
+  padding: 40px;
+  width: 50%;
+}
+footer h3{
+font-size: 30px;
+}
+.first_div .fa-crow, P{
+display: inline-block;
+}
+.bird{
+display: flex;
+}
+.bird a{
+text-decoration: none;
+color: #ffc000;
+}
+.bird a:hover{
+color: #ffc000;
+text-decoration: underline;
+}
+.fas.fa-crow{
+font-size: 30px;
+margin-right: 20px;
+margin-top: 20px;
+color: #ffc000;
+}
+.first_div ul li{
+list-style: none;
+font-size: 25px;
+float: left;
+margin: 2px;
+}
+.first_div ul li a{
+text-align: center;
+color: black;
+display: block;
+width: 40px;
+height:40px;
+background-color: #ffc000;
+}
+.first_div ul li a:hover{
+color: white;
+}
+.second_div form{
+display: flex;
+margin-top: 25px;
+}
+.second_div form button{
+margin-left: 2px;
+}
+.second_div form button:hover{
+background-color: black;
+color: white;
+border: 0;
+}
+/* Footer */
+
+@media screen and (max-width: 1030px){
+    .main img {
+    display: none;
+    }
+    .main ul{
+    padding: 0!important;
+    margin: 0!important;
+    }
+    .main a{
+    display: block;
+    margin-top: 10px;
+    font-size: 40px;
+    height: 100%;
+    }
+    .main ul h1{
+     font-size: 38px;
+    }
+   .features{
+     text-align: center;
+    }
+   .container_list_features{
+    display: block;
+    }
+  .icon_list,
+  .accordion{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+   }
+   .testimonials_container h2,p{
+    text-align: center;
+   }
+   .testimonials_container h2{
+    font-size: 38px;
+   }
+   .testimonials_list li{
+    float: none!important;
+    width: 100%!important;
+    margin: auto!important;
+   }
+  .contact_us{
+   text-align: center;
+   }
+   .map_inquiry{
+   display: block;
+  }
+   .container_map,
+   .inquiry{
+    width: 100%;
+    margin-bottom:  10px;
+  }
+   footer{
+   display: block;
+  }
+  .first_div,
+  .second_div{
+  width: 100%;
+  margin-top: 10px;
+  }
+  .w-100{
+  width: auto!important;
+  }
+}
